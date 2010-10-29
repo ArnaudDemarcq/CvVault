@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>BeanListPanel</title>
+    </head>
+    <body>
+    <wicket:panel>
+        <form wicket:id="newUserForm" action="UserDataNewPanel.html">
+            <div  wicket:id="feedback" id="errorsDiv" class="innerError" />
+            <table>
+                <tr>
+                    <td>
+                        First Name 
+                    </td>
+                    <td>
+                        <input wicket:id="userFirstName"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Last Name
+                    </td>
+                    <td>
+                        <input wicket:id="userLastName"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        E-Mail
+                    </td>
+                    <td>
+                        <input wicket:id="userEmail"/>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" />
+        </form>
+    </wicket:panel>
+</body>
+
+</html>
+
